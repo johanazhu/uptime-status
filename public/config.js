@@ -1,3 +1,4 @@
+
 // 配置
 window.Config = {
 
@@ -7,7 +8,7 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    process.env.API_KEY,
   ],
 
     // 日志天数
@@ -22,15 +23,15 @@ window.Config = {
   Navi: [
     {
       text: '主页',
-      url: 'https://tjys.tk'
+      url: 'https://azhubaby.com'
     },
     {
       text: '博客',
-      url: 'https://blog.qikaile.tk'
+      url: 'https://blog.azhubaby.com'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/qikaile/uptime-status'
+      url: 'https://github.com/johanazhu/uptime-status'
     },
   ],
 };
