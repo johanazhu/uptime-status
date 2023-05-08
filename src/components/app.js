@@ -2,9 +2,6 @@ import { useMemo } from 'react';
 import Link from './link';
 import Header from './header';
 import UptimeRobot from './uptimerobot';
-import Package from '../../package.json';
-
-console.log('process.env1111', process.env)
 
 function App() {
 
